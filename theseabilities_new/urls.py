@@ -37,7 +37,7 @@ urlpatterns += patterns('',
     # one out.
 
     url("^$", direct_to_template, {"template": "index.html"}, name="home"),
-    (r"^sitemap\.xml", direct_to_template, {"template": "sitemap.xml"}, 'mimetype': 'text/plain'),
+    (r"^sitemap\.xml", direct_to_template, {"template": "sitemap.xml"}, "mimetype": "text/plain"),
 
     # HOMEPAGE AS AN EDITABLE PAGE IN THE PAGE TREE
     # ---------------------------------------------
