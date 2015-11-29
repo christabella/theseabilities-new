@@ -223,6 +223,11 @@ img.pull-left {
   They also cover special cases for date and date/time inputs.
 */
 
+.mailinglistinput {
+  text-align:center;
+  max-width: 450px !important;
+}
+
 .form-group > input[type="text"],
 .form-group > input[type="password"],
 .form-group > input[type="datetime"],
@@ -239,7 +244,7 @@ img.pull-left {
 .form-group > input[type="color"],
 .form-group > select,
 .form-group > textarea {
-  display: block;
+  display: inline-block;
   width: 100%;
   max-width: 300px;
   height: 34px;
