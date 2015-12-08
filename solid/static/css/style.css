@@ -13,7 +13,7 @@
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 div#myCarousel {
-    padding-top: 2%;
+    padding-top: 2em;
 }
 
 span.highlighted {
@@ -55,8 +55,12 @@ u {
 	height:33px;
 	margin: -0.3em 0.5em 0em 0em;    
 }
-.partner-img{
-	padding: 0em 4em 0em 4em;
+
+.partner-img {
+	padding:0em 1em 0em 1em;
+}
+.too-big{
+	padding: 0em 2em 0em 2em;
 }
 /*	################################################################
 	1. GENERAL STRUCTURES
@@ -275,8 +279,8 @@ a:focus {
 
 /* Services Wrap */
 #service {
-	margin-top: 100px;
-	margin-bottom: 80px;
+	margin-top: 20px;
+	margin-bottom: 40px;
 }
 
 #service i {
@@ -372,8 +376,8 @@ a:focus {
 #cwrap {
 	background: #f7f7f7;
 	margin-top: 0px;
-	padding-top: 80px;
-	padding-bottom: 100px;
+	padding-top: 20px;
+	padding-bottom: 40px;
 }
 
 #cwrap h3 {
