@@ -13,10 +13,13 @@
 
 
 $(document).ready(function() {
-    var options = {"keyboard":"true"};
-
-    $('#keyguardModal').modal(options);
+     if ($.cookie('show-modal') == null) {
          $('#keyguardModal').modal('show');
+     } else {
+        $('div').remove("#keyguardModal");
+     }
  });
 
-
+$("#stopModal").click(function(){
+    $.cookie('show-modal', '1');
+});
