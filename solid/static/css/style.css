@@ -12,6 +12,33 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:400,900);
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
+div#myCarousel {
+    padding-top: 2%;
+}
+
+span.highlighted {
+    font-size: 1.2em;
+}
+
+.highlighted {
+	background-color:white;
+	color:black;
+}
+
+.form-group > label, input, p, textarea, select {
+
+    display: block !important;
+    margin: auto !important;
+}
+
+label.control-label {
+    text-align: center;
+}
+
+p.help-block {
+	font-style: italic;
+	text-align: center; 
+}
 
 u {
     text-decoration: underline;
@@ -104,9 +131,9 @@ a:focus {
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
-	min-height: 70px;
+/*	min-height: 70px;
 	padding-top: 10px;
-	margin-bottom: 0px;
+*/	margin-bottom: 0px;
 }
 
 .navbar-brand {
@@ -200,7 +227,7 @@ a:focus {
 }
 
 .mtb {
-	margin-top: 80px;
+	margin-top: 0px;
 	margin-bottom: 80px;
 }
 

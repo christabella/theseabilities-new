@@ -10,3 +10,13 @@
 
 		
 })(jQuery);
+
+
+$(document).ready(function() {
+    var options = {"keyboard":"true"};
+
+    $('#keyguardModal').modal(options);
+         $('#keyguardModal').modal('show');
+ });
+
+

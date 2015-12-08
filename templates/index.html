@@ -14,10 +14,58 @@
 
 {% block right_wrapper%}
 {% endblock %}
+
+<!-- Modal -->
+<div id="keyguardModal" class="modal fade" role="dialog" data-keyboard="true">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Hello! Would you like to pre-order a keyguard or keyboard stickers?</h4>
+      </div>
+      <div class="modal-body">
+        <p><b>We need your help. </b>We have a great product that we want to get out to the market.
+		It's an assistive technology product that allows <b> people with various physical limitations</b> to
+		<b>use the computer keyboard.</b>	
+		If you...
+		<br>
+		<br>
+			<ul>
+			<li>need a keyguard</li>
+			<li>know someone who needs/uses a keyguard</li>
+			<li>don't need a keyguard, but want to help</li>
+			<li><a href="http://cdn26.printing-cdn.com/wp-content/uploads/7_galaxy_NEW.jpg">like to customize your belongings (laptop/keyboard stickers!) </a></li>
+			</ul>
+
+		do show your interest by filling out a short pre-order form!
+		<br>
+		<br>
+        <a href="http://www.theseabilities.com/keyguard-preorder"><button type="button" class="btn btn-default btn-lg">
+		  <span class="glyphicon glyphicon-buy" aria-hidden="true"></span> Pre-order
+		</button></a>
+        </p> 
+        <br>
+		<a href="http://www.theseabilities.com/blog/keyguards"><em>Want to find out a bit more about keyguards?</em></a>
+	
+</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+<!-- End Modal -->
+
+
+
 <!-- *****************************************************************************************************************
 	 HEADERWRAP
 	 ***************************************************************************************************************** -->
-	<div id="headerwrap">
+<!-- 	<div id="headerwrap">
 	    <div class="container">
 			<div class="row">
 				<div class="col-lg-8 col-lg-offset-2">
@@ -25,13 +73,85 @@
 					<h1 style="font-family:Smoothy-Cursive;">(these)abilities</h1>
 					<h5>"DISABLING DISABILITIES" THROUGH TECHNOLOGY AND DESIGN</h5>
 				</div>
-				<!-- <div class="col-lg-8 col-lg-offset-2 himg">
-					<img src="{% static "img/browser.png" %}" class="img-responsive">
-				</div> -->
 			</div><!-- /row -->
 	    </div> <!-- /container -->
-	</div><!-- /headerwrap -->
+	</div><!-- /headerwrap --> -->
 
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="{% static "img/carousel0.png"%}" alt="(these)abilities">
+    </div>
+
+    <div class="item">
+      <a href="http://www.theseabilities.com/blog/plug-n-play"><img src="{% static "img/carousel1.png"%}" alt="Sigh">
+      <div class="carousel-caption">
+        <h2>Plug n Play</h2>
+        <p><span class="highlighted">A zero-damage accessory that expands a bus's wheelchair capacity? Click to find out how it works.</span></p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="http://www.theseabilities.com/blog/keyguards"><img src="{% static "img/carousel2.png"%}" alt="Chania">
+      <div class="carousel-caption">
+        <h2>Keyguard</h2>
+        <p><span class="highlighted">Making this assistive technology more accessible. Click to learn more.</span></p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="http://www.theseabilities.com/blog/mrt-gap-lab-1"><img src="{% static "img/carousel3.png"%}" alt="Flower">
+      <div class="carousel-caption">
+        <h2>L.A.B. 1.1: Ideation</h2>
+        <p><span class="highlighted">A diverse crew of all ages, backgrounds, and abilities, ideate solutions for the MRT gap problem faced by wheelchair users.</span></p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="http://www.theseabilities.com/blog/mrt-gap-lab-2"><img src="{% static "img/carousel4.png"%}" alt="Flower">
+      <div class="carousel-caption">
+        <h2>L.A.B. 1.2: Prototyping</h2>
+        <p><span class="highlighted">Getting our hands dirty by rapid prototyping solutions to the MRT gap problem faced by wheelchair users.</span></p>
+      </div>
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="http://www.theseabilities.com/blog/mrt-gap-lab-3"><img src="{% static "img/carousel5.png"%}" alt="Flower">
+      <div class="carousel-caption">
+        <h2>L.A.B. 1.3: Pushing our ideas for solving the MRT gap problem one step further; prototyping intensifies.</h2>
+        <p><span class="highlighted">.</span></p>
+      </div>
+      </a>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>`
 	<!-- *****************************************************************************************************************
 	 SERVICE LOGOS
 	 ***************************************************************************************************************** -->
@@ -149,6 +269,7 @@
 		<form action="//theseabilities.us11.list-manage.com/subscribe/post?u=c26a3889099c79bd3003a0d65&amp;id=f4a1603e24" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 		    <div id="mc_embed_signup_scroll">
 			<h2>Subscribe to our mailing list</h2>
+			<p>We will email you once a month with the latest disability and (these)abilities happenings. <br><em>We promise no spam, and that your email will be kept confidential.</em></p>
 		<!-- <div class="indicates-required"><span class="asterisk">*</span> indicates required</div> -->
 		<div class="mc-field-group form-group">
 			<label for="mce-EMAIL"><span class="asterisk"></span>
