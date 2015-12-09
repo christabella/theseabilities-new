@@ -25,10 +25,11 @@ span.highlighted {
 	color:black;
 }
 
-.form-group > label, input, p, textarea, select {
+.mezzanine-form > .form-group > label, input, p, textarea, select{
+
 
     display: block !important;
-    margin: auto !important;
+    margin: auto ;
 }
 
 label.control-label {
