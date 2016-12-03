@@ -159,11 +159,11 @@ a:focus {
 }
 
 .navbar-default .navbar-nav > li > a:hover {
-	color: #00b3fe;
+	color: cornflowerblue;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #00b3fe;
+	color: cornflowerblue;
 	background-color: transparent;
 }
 
@@ -194,8 +194,8 @@ a:focus {
 .btn-theme.active,
 .open .dropdown-toggle.btn-theme {
   color: #fff;
-  background-color: #00b3fe;
-  border-color: #00b3fe;
+  background-color: cornflowerblue;
+  border-color: cornflowerblue;
 }
 
 .dmbutton:hover,
@@ -257,7 +257,7 @@ a:focus {
 ################################################################# */
 
 #headerwrap {
-	background-color: #00b3fe;
+	background-color: cornflowerblue;
 	min-height: 450px;
 	padding-top: 100px;
 	padding-bottom: 0px;
@@ -285,7 +285,7 @@ a:focus {
 }
 
 #service i {
-	color: #00b3fe;
+	color: cornflowerblue;
 	font-size: 60px;
 	padding: 15px;
 }
@@ -333,9 +333,54 @@ a:focus {
 {
 	height:100%;
 	width:100%;
-	background-color:#00b3fe;
+	background-color:cornflowerblue;
 	background-color:rgba(0,179,254,.9);
 	text-align:center;
+}
+
+#vanwrap {
+	background: url(../img/t-back.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:60px;
+	padding-bottom:60px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Campaign wrap */
+#camwrap {
+	background: url(../img/campaign/vanessa.jpg) no-repeat center top;
+	margin-top: 0px;
+	padding-top:60px;
+	padding-bottom:60px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 300px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 /* Testimonials Wrap */
@@ -407,7 +452,7 @@ a:focus {
 }
 
 #footerwrap i:hover {
-	color: #00b3fe
+	color: cornflowerblue
 }
 
 /*	################################################################
@@ -416,7 +461,7 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: #00b3fe;
+	background: cornflowerblue;
 	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
@@ -429,7 +474,7 @@ a:focus {
 }
 
 .ctitle {
-	color: #00b3fe;
+	color: cornflowerblue;
 	font-weight: 700;
 	margin-bottom: 15px;
 }
@@ -449,7 +494,7 @@ csmall2 {
 }
 
 .badge-theme {
-	background: #00b3fe;
+	background: cornflowerblue;
 }
 
 /* Contact Page */
@@ -510,4 +555,18 @@ csmall2 {
 .share i {
 	padding-right: 15px;
 	font-size: 18px;
+}
+
+/* My stuff */
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-campaign {
+  color: #fff;
+  font-size:1em;
+  background-color: #00CCCC;
+  border-color: #00CCCC;
+  margin-top: -10%;
+  /*margin-bottom:5%;*/
 }
